@@ -270,6 +270,7 @@ function initDemos() {
 
   (function() {
     var demo = $('#polymer-ajax-demo');
+    if (demo ==null) return;
     var output = demo.querySelector('output');
 
     demo.querySelector('.snippet-demo').listen('click', function(e) {
@@ -296,6 +297,7 @@ function initDemos() {
 
   (function() {
     var demo = $('#polymer-flex-demo');
+    if (demo ==null) return;
     var output = demo.querySelector('output');
 
     var flexLayout = output.querySelector('polymer-flex-layout');
@@ -324,18 +326,21 @@ function initDemos() {
 
   })();
 
-  // (function() {
-  //   var slide = $('#more-complex-elements');
-  //   initCodeSnippetCycler(slide);
-  // })();
+ (function() {
+   var slide = $('#more-complex-elements');
+   if (slide ==null) return;
+   initCodeSnippetCycler(slide);
+ })();
 
-  // (function() {
-  //   var slide = $('#published-properties');
-  //   initCodeSnippetCycler(slide);
-  // })();
+ (function() {
+   var slide = $('#published-properties');
+   if (slide ==null) return;
+   initCodeSnippetCycler(slide);
+ })();
 
   (function() {
     var slides = $$('slide.googlecomtoday');
+    if (slides ==null) return;
 
     var onTransEnd_ = function(e) {
       if (!this.classList.contains('current')) {
@@ -361,42 +366,46 @@ function initDemos() {
   })();
 
   (function() {
-    // var slide = $('#title-slide');
-    // var video = slide.$('video');
-    // var audio = slide.$('audio');
+    var slide = $('#title-slide');
+    if (slide ==null) return;
+    var video = slide.$('video');
+    if (video ==null) return;
+    var audio = slide.$('audio');
+    if (audio ==null) return;
 
-    // var PLAYBACKRATE = 2;
+    var PLAYBACKRATE = 2;
 
-    // video.listen('ended', function(e) {
-    //   video.load(); // video.currentTime = 0; doesn't work.
-    //   video.playbackRate = PLAYBACKRATE; // screenflow captured at 30fps. get us to 60.
-    //   video.play();
-    // });
+    video.listen('ended', function(e) {
+      video.load(); // video.currentTime = 0; doesn't work.
+      video.playbackRate = PLAYBACKRATE; // screenflow captured at 30fps. get us to 60.
+      video.play();
+    });
 
-    // slide.listen('slideenter', function(e) {
-    //   if (video.currentTime >= video.duration) {
-    //     video.load();
-    //   }
-    //   video.playbackRate = PLAYBACKRATE;
-    //   video.play();
-    //   audio.play();
-    // });
+    slide.listen('slideenter', function(e) {
+      if (video.currentTime >= video.duration) {
+        video.load();
+      }
+      video.playbackRate = PLAYBACKRATE;
+      video.play();
+      audio.play();
+    });
 
-    // slide.listen('slideleave', function() {
-    //   video.pause();
-    //   audio.pause();
-    // });
+    slide.listen('slideleave', function() {
+      video.pause();
+      audio.pause();
+    });
 
-    // // If this slide is current on pageload, start playing video.
-    // if (slidedeck.slides[slidedeck.curSlide_] == slide) {
-    //   video.playbackRate = PLAYBACKRATE;
-    //   video.play();
-    //   audio.play();
-    // }
+    // If this slide is current on pageload, start playing video.
+    if (slidedeck.slides[slidedeck.curSlide_] == slide) {
+      video.playbackRate = PLAYBACKRATE;
+      video.play();
+      audio.play();
+    }
   })();
 
   (function() {
     var slide = $('#platform-polyfills');
+    if (slide ==null) return;
     slide.listen('slidebuild', function(e) {
       var rows = $$('.browser-support-row div', slide);
       rows.forEach(function(row) {
@@ -415,6 +424,7 @@ function enableDiagramAnimations() {
 
   (function() {
     var slide = $('#layers-of-polymer');
+    if (slide ==null) return;
     slide.addEventListener('slideenter', function(e) {
       animations.captureElements();
       animations.setupFades();
@@ -457,6 +467,7 @@ function enableDiagramAnimations() {
 
   (function() {
     var slide = $('#using-elements');
+    if (slide ==null) return;
     slide.addEventListener('slideenter', function(e) {
       animations.captureElements();
       animations.setupFades();
@@ -468,6 +479,7 @@ function enableDiagramAnimations() {
 
   (function() {
     var slide = $('#creating-elements');
+    if (slide ==null) return;
     slide.addEventListener('slideenter', function(e) {
       animations.captureElements();
       animations.setupFades();
@@ -479,6 +491,7 @@ function enableDiagramAnimations() {
 
   (function() {
     var slide = $('#the-platform');
+    if (slide ==null) return;
     slide.addEventListener('slideenter', function(e) {
       animations.captureElements();
       animations.setupFades();
@@ -490,6 +503,7 @@ function enableDiagramAnimations() {
 
   (function() {
     var slide = $('#evaporate-platform');
+    if (slide ==null) return;
     slide.addEventListener('slideenter', function(e) {
       animations.captureElements();
       animations.setupFades();

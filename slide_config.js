@@ -4,7 +4,7 @@ var SLIDE_CONFIG = {
     title: 'Polymer',
     subtitle: 'Material Design on the Web',
     eventInfo: {
-      title: 'GDG Brussels Material Design',
+      title: 'Material Design',
       date: '21/10/2014'
     },
     useBuilds: true, // Default: true. False will turn off slide animation builds.
@@ -24,10 +24,10 @@ var SLIDE_CONFIG = {
   // Author information
   presenters: [{
     name: 'Pieter-Jan Vandormael',
-    company: 'BruGTUG',
-    gplus: 'http://plus.google.com/+Pieter-JanVandormael',
+    company: 'GDG Brussels',
+    gplus: 'http://plus.google.com/+PieterJanVandormael',
     twitter: '@pjv_',
-    github: 'http://github.com/pjjjv'
+    github: 'http://github.com/pjjjv/polymer-material-design'
   }/*, {
     name: 'Second Name',
     company: 'Job Title, Google',
