@@ -270,6 +270,7 @@ function initDemos() {
 
   (function() {
     var demo = $('#polymer-ajax-demo');
+    if (demo ==null) return;
     var output = demo.querySelector('output');
 
     demo.querySelector('.snippet-demo').listen('click', function(e) {
@@ -296,6 +297,7 @@ function initDemos() {
 
   (function() {
     var demo = $('#polymer-flex-demo');
+    if (demo ==null) return;
     var output = demo.querySelector('output');
 
     var flexLayout = output.querySelector('polymer-flex-layout');
@@ -329,13 +331,15 @@ function initDemos() {
   //   initCodeSnippetCycler(slide);
   // })();
 
-  // (function() {
-  //   var slide = $('#published-properties');
-  //   initCodeSnippetCycler(slide);
-  // })();
+ (function() {
+   var slide = $('#published-properties');
+   if (slide ==null) return;
+   initCodeSnippetCycler(slide);
+ })();
 
   (function() {
     var slides = $$('slide.googlecomtoday');
+    if (slides ==null) return;
 
     var onTransEnd_ = function(e) {
       if (!this.classList.contains('current')) {
@@ -416,6 +420,7 @@ function enableDiagramAnimations() {
 
   (function() {
     var slide = $('#layers-of-polymer');
+    if (slide ==null) return;
     slide.addEventListener('slideenter', function(e) {
       animations.captureElements();
       animations.setupFades();
@@ -458,6 +463,7 @@ function enableDiagramAnimations() {
 
   (function() {
     var slide = $('#using-elements');
+    if (slide ==null) return;
     slide.addEventListener('slideenter', function(e) {
       animations.captureElements();
       animations.setupFades();
@@ -469,6 +475,7 @@ function enableDiagramAnimations() {
 
   (function() {
     var slide = $('#creating-elements');
+    if (slide ==null) return;
     slide.addEventListener('slideenter', function(e) {
       animations.captureElements();
       animations.setupFades();

@@ -1159,9 +1159,9 @@ class: fill nobackdrop nobackground yum do-transition
 body_class: md
 content_class: flexbox vcenter
 
-<h2 class="centered" style="font-size: 55px; letter-spacing: 0; color: black;">Material Design</h2>
+<h2 class="centered" style="font-size: 55px; letter-spacing: 0; color: #515151;">Material Design</h2>
 
-<h3 class="centered" style="line-height: 1.25;">Design is the art of considered creation. Our goal is to satisfy the diverse spectrum of human needs. As those needs evolve, so too must our designs, practices, and philosophies.</h3>
+<h3 class="centered" style="line-height: 1.25; width:70%">Design is the art of considered creation. Our goal is to satisfy the diverse spectrum of human needs. As those needs evolve, so too must our designs, practices, and philosophies.</h3>
 
 <aside class="note">
   <section>
@@ -1199,6 +1199,20 @@ content_class: flexbox vcenter
     <p>
 </p>
 </section>
+</aside>
+
+---
+
+class: fill nobackdrop nobackground
+body_class: principles
+content_class: flexbox vcenter
+
+<h2 class="centered" style="font-size: 55px; letter-spacing: 0;">Principles</h2>
+
+<aside class="note">
+  <section>
+    <p></p>
+  </section>
 </aside>
 
 ---
@@ -1357,13 +1371,164 @@ content_class: flexbox vcenter
 
 ---
 
+class: fill nobackdrop nobackground
+body_class: dos
+content_class: flexbox vcenter
+
+<h2 class="centered" style="font-size: 55px; letter-spacing: 0;">Noteworthy do's and don'ts</h2>
+
+<aside class="note">
+  <section>
+    <p></p>
+  </section>
+</aside>
+
+---
+
+title: Authentic motion
+content_class: columns-2
+
+<h3 style="line-height: 1.25;">
+UI elements are locked behind a layer of glass. Visual and motion cues help bridge that gap by immediately acknowledging input and implying direct manipulation.
+<br/><br/>
+<b>Mass and weight</b>
+<br/><br/>
+Not all objects move the same way. 
+<br/><br/>
+Entering the frame at peak velocity.
+</h3>
+
+<video id="vid1" loop width="738" height="269" autoplay>
+<source src="video/videos-authenticMotion_massAndWeight_ex3_do_large_xhdpi.webm" type="video/webm">
+<source src="video/videos-authenticMotion_massAndWeight_ex3_do_large_xhdpi.mp4" type="video/mp4">
+</video>
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
+title: Responsive interaction
+content_class: columns-2
+
+<h3 style="line-height: 1.25;">It is thoughtful and purposeful, not random, and can be gently whimsical but never distracting. It encourages deeper exploration of an app: what will happen if I touch this?
+<br/><br/>
+From the contact point, make the visual reaction <b>radial</b>.
+<br/><br/>
+The material itself can also respond to interaction: <b>lift on touch</b>; <b>point of origin</b>.
+</h3>
+
+<video id="vid2" loop autoplay width="360" height="405">
+<source src="video/animation-responsive-surfaceresponse-pointorigin-do_example_large_xhdpi.webm" type="video/webm">
+<source src="video/animation-responsive-surfaceresponse-pointorigin-do_example_large_xhdpi.mp4" type="video/mp4">
+</video>
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+
+---
+
+title: Meaningful transitions
+content_class: columns-2
+
+<h3 style="line-height: 1.25;">Visual Continuity: Think about how the users attention should be directed. What elements and motions support that goal? <b>Emphasize, persist or re-introduce</b>.
+<br/><br/>
+Hierarchical Timing: Ensure that motion supports the information <b>hierarchy</b>; that is, it conveys to the user what content is most important by creating a path for the eye to follow.
+<br/><br/>
+Consistent Choreography: <b>Avoid linear spatial paths</b>.
+</h3>
+
+<video id="vid3" loop autoplay  width="360" height="422">
+<source src="video/meaningfultransitions-consistentchoreography_do1_large_xhdpi.webm" type="video/webm">
+<source src="video/meaningfultransitions-consistentchoreography_do1_large_xhdpi.mp4" type="video/mp4">
+</video>
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+
+---
+
+title: Color
+content_class: flexbox vcenter
+
+<h3 style="line-height: 1.25;">
+Color is inspired by <b>bold color</b> statements juxtaposed with <b>muted environments</b>, taking cues from contemporary architecture, road signs, pavement marking tape, and sports courts. Emphasize bold shadows and highlights. Introduce unexpected and vibrant colors. Use imagery that expresses personal <b>relevance</b>, information and delight.
+</h3>
+
+<img class="topmargin" src="images/polymer/md/colorstory.png" style="width:100%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
+title: Layouts and paper craft
+content_class: columns-2
+
+<h3 style="line-height: 1.25;">
+<b>Seams and steps</b>.
+<br/><br/>
+Toolbars can be statically on top, 'waterfall'; be pushed, or covered.
+<br/><br/>
+A floating action can <b>straddle</b> a step if it relates to the content of the paper creating that step.
+</h3>
+
+<img src="images/polymer/md/toolbar1.png" style="width:80%">
+<img src="images/polymer/md/floatingpoint.png" style="width:80%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+
+---
+
+title: Font
+content_class: flexbox vcenter
+
+<h3 style="line-height: 1.25;">
+<b>Roboto</b>
+</h3>
+
+<img class="topmargin" src="images/polymer/md/font.png" style="width:100%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
 class: fill nobackdrop nobackground yum do-transition
 body_class: step
 content_class: flexbox vcenter
 
-<h2 class="centered" style="font-size: 55px; letter-spacing: 0; color: black;">This is Material Design.</h2>
+<h2 class="centered" style="font-size: 55px; letter-spacing: 0; color: #515151;">This is Material Design.</h2>
 <br/><br/>
-<h2 class="centered" style="font-size: 55px; letter-spacing: 0; color: black;">This is our first step.</h2>
+<h2 class="centered" style="font-size: 55px; letter-spacing: 0; color: #515151;">This is our first step.</h2>
 
 
 <aside class="note">
@@ -1399,7 +1564,7 @@ class: fill nobackdrop nobackground yum do-transition
 body_class: step
 content_class: flexbox vcenter
 
-<h2 class="centered" style="font-size: 55px; letter-spacing: 0; color: black;">Imagine, Create, Iterate.</h2>
+<h2 class="centered" style="font-size: 55px; letter-spacing: 0; color: #515151;">Imagine, Create, Iterate.</h2>
 
 <aside class="note">
   <section>

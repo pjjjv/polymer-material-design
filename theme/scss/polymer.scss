@@ -56,6 +56,14 @@
   @extend .fill;
   background: url('../../images/slides/md.jpg') no-repeat 50% 50%; ;
 }
+.principles {
+  @extend .fill;
+  background: url('../../images/polymer/md/green.jpg') no-repeat 50% 50%; ;
+}
+.dos {
+  @extend .fill;
+  background: url('../../images/polymer/md/round.jpg') no-repeat 50% 50%; ;
+}
 .paper-checkbox {
   @extend .fill;
   background: #92f0fb;
