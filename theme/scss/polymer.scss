@@ -40,6 +40,26 @@
   @extend .fill;
   background: $polymer-elements-color;
 }
+.polymer-phone {
+  @extend .fill;
+  background: #424242;
+}
+.core-elements {
+  @extend .fill;
+  background: url('../../images/slides/bw-girders.jpg') no-repeat 50% 50%; ;
+}
+.paper-elements {
+  @extend .fill;
+  background: url('../../images/slides/paper.jpg') no-repeat 50% 50%; ;
+}
+.paper-checkbox {
+  @extend .fill;
+  background: #92f0fb;
+}
+.topeka-slide {
+  @extend .fill;
+  background: #686868;
+}
 .applications {
   color: $polymer-applications-color;
 }

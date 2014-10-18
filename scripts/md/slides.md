@@ -3,19 +3,20 @@ id: who
 
 <p class="avatar rounded"></p>
 
-<p>Rob Dodson</p>
-<p>Staff Developer Advocate, <img src="images/logos/google_logo.png" style="height: 30px;margin: 0;"> <img src="images/logos/chrome_logo.png" style="height:27px;margin:0;vertical-align: top;"></p>
+<p>Pieter-Jan Vandormael</p>
+<p>GDG Brussels</p>
 
 <p class="topmargin"></p>
 
 <i class="icon icon-google-plus"></i>
-<a rel="author" href="http://google.com/+RobDodson">google.com/+RobDodson</a>
+<a rel="author" href="http://google.com/+PieterJanVandormael">google.com/+PieterJanVandormael</a>
 
 <i class="icon icon-twitter"></i>
-<a rel="author" href="http://twitter.com/rob_dodson">@rob_dodson</a>
+<a rel="author" href="http://twitter.com/pjv_">@pjv_</a>
 
-<i class="icon icon-bookmark"></i> 
-<a rel="author" href="http://robdodson.me">robdodson.me</a>
+<p class="topmargin"></p>
+
+<p>Modified slides of Rob Dodson (Developer Advocate)</p>
 
 <aside class="note">
   <section>
@@ -39,6 +40,10 @@ class: large
   </div>
   <div>
     <h3>Working with Polymer</h3>
+    <br>
+  </div>
+  <div>
+    <h3>Paper Elements</h3>
     <br>
   </div>
   <div>
@@ -394,80 +399,6 @@ content_class: flexbox vcenter
 
 ---
 
-content_class: flexbox vleft
-
-<h2 style="font-size: 60px; line-height: 1.25;">Web Components are a set of <strong>emerging standards</strong> that allow developers to <strong>extend HTML</strong>.</h2>
-
-<aside class="note">
-  <section>
-    <p>In a nutshell this means "giving developers the ability to create their own tags that have scoped CSS styles and encapsualted markup and behavior."</p>
-  </section>
-</aside>
-
----
-
-class: nobackdrop nobackground browser-support
-content_class: flexbox vcenter
-
-<div class="flexbox">
-  <h2>Templates</h2>
-  <div class="browser-support-row">
-    <div class="supported"><img src="images/logos/browsers/safari_logo.png"></div>
-    <div class="supported"><img src="images/logos/browsers/ff_logo.png"></div>
-    <div class="supported"><img src="images/logos/chrome_logo.png"></div>
-    <div class="supported"><img src="images/logos/browsers/opera_logo.png"></div>
-    <div><img src="images/logos/browsers/ie10_logo.png"></div>
-  </div>
-</div>
-
-<div class="flexbox">
-  <h2>Custom Elements</h2>
-  <div class="browser-support-row">
-    <div><img src="images/logos/browsers/safari_logo.png"></div>
-    <div class="supported partial"><img src="images/logos/browsers/ff_logo.png"></div>
-    <div class="supported"><img src="images/logos/chrome_logo.png"></div>
-    <div><img src="images/logos/browsers/opera_logo.png"></div>
-    <div><img src="images/logos/browsers/ie10_logo.png"></div>
-  </div>
-</div>
-
-<div class="flexbox">
-  <h2>Shadow DOM</h2>
-  <div class="browser-support-row">
-    <div><img src="images/logos/browsers/safari_logo.png"></div>
-    <div class="supported partial"><img src="images/logos/browsers/ff_logo.png"></div>
-    <div class="supported"><img src="images/logos/chrome_logo.png"></div>
-    <div class="supported"><img src="images/logos/browsers/opera_logo.png"></div>
-    <div><img src="images/logos/browsers/ie10_logo.png"></div>
-  </div>
-</div>
-
-<div class="flexbox">
-  <h2>HTML Imports</h2>
-  <div class="browser-support-row">
-    <div><img src="images/logos/browsers/safari_logo.png"></div>
-    <div><img src="images/logos/browsers/ff_logo.png"></div>
-    <div class="supported partial"><img src="images/logos/chrome_logo.png"></div>
-    <div><img src="images/logos/browsers/opera_logo.png"></div>
-    <div><img src="images/logos/browsers/ie10_logo.png"></div>
-  </div>
-</div>
-
-<aside class="note">
-  <section>
-    <p>There's no one Web Components technology, it's actually 4 different technologies which collectively form the Web Components umbrella</p>
-    <ul>
-      <li>Templates give you the ability to create reusable bits of DOM markup. If you've used a library like handlebars or mustache before then it should feel familiar. The difference now is that there is an actual &lt;template&gt; tag in the browser</li>
-      <li>Custom elements give you the ability to create your own custom HTML elements. The x-tabs example from before is an instance of a custom element.</li>
-      <li>Shadow DOM is the ability to create scoped styles and encapsulated markup. So you can put some HTML and CSS inside of the Shadow DOM and you're guaranteed your element will render as intended.</li>
-      <li>Finally HTML Imports give you the ability to load external HTML files into your document. These files can contain resources like CSS, JavaScript and (most likely) custom element defintions.</li>
-    </ul>
-    <p>Talk about support chart. It's good, but developers won't use Web Components until they're supported in *all* browsers. But we want developer feedback before we ship these things. For that reason we created Polymer.</p>
-  </section>
-</aside>
-
----
-
 class: nobackdrop nobackground yum
 content_class: flexbox vcenter centered
 
@@ -508,7 +439,7 @@ title: Layers of Polymer
 
   <div id="diagram-elements" class="diagram-explanation" data-build-index="6">
     <h3 class="elements bold">Elements</h3>
-    <p>Reusable custom elements (in progress)</p>
+    <p>Reusable custom elements</p>
   </div>
 
   <div id="diagram-polymer" class="diagram-explanation" data-build-index="5">
@@ -639,6 +570,21 @@ keep_content: true
 
 ---
 
+class: nobackground fill
+body_class: polymer-phone
+content_class: flexbox vcenter hcenter
+
+![Phone](images/slides/polymer-phone.png)
+
+<aside class="note">
+  <section>
+    <p>Could we work with elements that look and feel…
+	like the kinds of elements in iOS or Android</p>
+  </section>
+</aside>
+
+---
+
 body_class: elements-fill
 content_class: flexbox vcenter
 
@@ -658,8 +604,23 @@ content_class: flexbox vcenter
 
 ---
 
+class: fill
+body_class: core-elements
+content_class: flexbox vcenter hcenter
+
+<h2 class="centered" style="font-size: 55px; letter-spacing: 0;">Core elements</h2>
+
+<aside class="note">
+  <section>
+    <p>General purpose, utility elements
+    http://bit.ly/1mZjnTu</p>
+  </section>
+</aside>
+
+---
+
 id: polymer-ui-elements
-title: Polymer UI elements
+title: Polymer Core UI elements
 subtitle: visual elements
 
 <div class="pull-right flexbox vcenter" style="width: 40%;margin-top:-100px;">
@@ -817,7 +778,7 @@ content_class: flexbox vcenter
 
 ---
 
-title: Polymer elements
+title: Polymer Core elements
 subtitle: non-visual utility elements
 content_class: columns-2
 
@@ -953,6 +914,124 @@ content_class: flexbox vcenter
 
 ---
 
+class: fill
+body_class: paper-elements
+content_class: flexbox vcenter hcenter
+
+<h2 class="centered" style="font-size: 55px; letter-spacing: 0;">Paper elements</h2>
+
+<aside class="note">
+  <section>
+    <p>More stylized.
+Push the envelope and expand what we expect on the web
+Animation and spatial relationships</p>
+  </section>
+</aside>
+
+---
+
+id: paper-checkbox
+body_class: paper-checkbox
+content_class: flexbox hcenter
+
+<div class="pull-left flexbox vcenter" style="height: auto;">
+<pre class="prettyprint" font-size:25px;>&lt;paper-checkbox>&lt;/paper-checkbox></pre>
+</div>
+
+<div class="pull-right flexbox vcenter" style="width: 60%;">
+  <img src="images/polymer/paper/checkbox.gif" style="width:100%">
+</div>
+
+<aside class="note">
+  <section>
+    <p>That means we’ve taken things like the typical input checkbox…
+And reimagined it for 2014
+We call this a paper-checkbox
+Fluid animations and the ink effects to denote pointer activity.</p>
+</section>
+</aside>
+
+---
+
+id: paper-ripple
+body_class: paper-ripple
+content_class: columns-2
+title: &lt;paper-ripple>
+subtitle: A reactive ink effect for indicating touch and mouse actions
+
+<div style="height: 100%;">
+<pre class="prettyprint" font-size:25px;>&lt;div class="card">
+    &lt;img src="science.svg">
+    &lt;paper-ripple fit>&lt;/paper-ripple>
+&lt;/div></pre>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</div>
+
+<div style="width: 61%;">
+  <img src="images/polymer/paper/ripple.gif" style="width:100%">
+  <img src="images/polymer/paper/ripple.png" style="width:100%">
+</div>
+
+<aside class="note">
+  <section>
+    <p>Cool reactive ink effect to indicate a touch or mouse action
+I’ve just nested it inside of a regular div
+This can be a simple drop-in to give your elements more visual punch
+</p>
+</section>
+</aside>
+
+---
+
+id: paper-shadow
+body_class: paper-shadow
+title: &lt;paper-shadow>
+subtitle: A dynamic shadow for conveying z-depth and spatial relationships
+content_class: flexbox hcenter
+
+<div class="pull-left" style="height: auto;">
+<pre class="prettyprint" font-size:25px;>&lt;div class="card">
+    &lt;paper-shadow z="5" animated>
+    &lt;/paper-shadow>
+&lt;/div></pre>
+</div>
+
+<div class="pull-right flexbox vcenter" style="width: 60%;">
+  <img src="images/polymer/paper/shadow.gif" style="width:100%">
+</div>
+
+<aside class="note">
+  <section>
+    <p>Give developers the ability to create realistic shadows
+Set a visual z-depth
+Make your elements spring to life. Actually two shadows.
+</p>
+</section>
+</aside>
+
+---
+
+class: nobackground fill
+body_class: topeka-slide
+content_class: flexbox vcenter hcenter
+
+<a href="http://polymer-project.org/apps/topeka/"><img src="images/slides/topekaslide.png"></a>
+
+<aside class="note">
+  <section>
+    <p>Topeka is our flagship. Demonstrates core and paper.
+Animations created with core-animated pages.
+Can do really powerful stuff with it.</p>
+  </section>
+</aside>
+
+---
+
 id: creating-elements
 title: Creating <label class="core">elements</label>
 subtitle: <a href="http://www.polymer-project.org/polymer.html" class="nounderline">polymer-project.org/polymer.html</a>
@@ -1061,534 +1140,6 @@ title: Declarative registration
     <p>So easy to create an API for your element... but I want to add some data to this thing!</p>
   </section>
 </aside>
-
----
-
-body_class: core-fill
-content_class: flexbox vcenter
-
-<h2 class="faded"><em>Binding</em> expressions</h2>
-
-<aside class="note">
-  <section>
-    <p>To work with data in an element we use binding expressions</p>
-  </section>
-</aside>
-
----
-
-id: two-way-binding
-title: Binding Expressions
-
-<pre class="prettyprint" style="font-size:27px; line-height: 1.2;" data-lang="HTML">
-&lt;polymer-element name="owner-element"&gt;
-  &lt;template&gt;
-    &lt;h2&gt;<b>{{owner}}</b> built me with Polymer&lt;/h2&gt;
-  &lt;/template&gt;
-  &lt;script&gt;
-  Polymer('owner-element', {
-    <b>owner: 'Rob'</b>
-  });
-  &lt;/script&gt;
-&lt;/polymer-element&gt;
-</pre>
-
-<pre class="prettyprint" style="font-size:30px; line-height: 1.2;" data-lang="HTML">
-&lt;owner-element&gt;&lt;/owner-element&gt;
-</pre>
-
-<div class="component-demo">
-  <output style="display: block; padding: 10px;">
-    <owner-element></owner-element>
-  </output>
-</div>
-
-<aside class="note">
-  <section>
-    <p>In this example we're using mustache syntax to bind the value owner in our template, to a property on our prototype.</p>
-    <p>Press the 'h' key to focus the slide</p>
-    <p>When this element renders, you'll see 'Rob built me with Polymer'.</p>
-    <p>But elements are supposed to be configurable, so how do we let the user set the value of owner?</p>
-  </section>
-</aside>
-
----
-
-body_class: core-fill
-content_class: flexbox vcenter
-
-<h2 class="faded"><em>Published</em> properties</h2>
-
-<aside class="note">
-  <section>
-    <p>To do that we've created published properties</p>
-  </section>
-</aside>
-
----
-
-id: published-properties
-title: Published properties
-
-<pre class="prettyprint" style="font-size:27px; line-height: 1.2;">
-&lt;polymer-element name="owner-element" <b>attributes="owner"</b>&gt;
-  &lt;template&gt;
-    &lt;h2&gt;<b>{{owner}}</b> built me with Polymer&lt;/h2&gt;
-  &lt;/template&gt;
-  &lt;script&gt;
-  Polymer('owner-element', {
-    <b>owner: 'Rob'</b>
-  });
-  &lt;/script&gt;
-&lt;/polymer-element&gt;
-</pre>
-
-<pre class="prettyprint" style="font-size:27px; line-height: 1.2;">
-&lt;owner-element <b>owner="Alex"</b>&gt;&lt;/owner-element&gt;
-</pre>
-
-<div class="component-demo">
-  <output style="display: block; padding: 10px;">
-    <owner-element owner="Alex"></owner-element>
-  </output>
-</div>
-
-<aside class="note">
-  <section>
-  <p>Notice the attributes attribute I've created at the end of my polymer-element. That allows me to expose the owner property from my prototype to the outside world.</p>
-  <p>This property is now 2-way data bound</p>
-  <p>Now when someone uses our tag they can configure owner and set it to 'Alex', which renders: 'Alex built me with Polymer'</p>
-  <p>So we've got a bit of data in here, how about interactivity?</p>
-  </section>
-</aside>
-
----
-
-body_class: core-fill
-content_class: flexbox vcenter
-
-<h2 class="faded">Declarative <em>event handlers</em></h2>
-
-<aside class="note">
-  <section>
-    <p>To quickly add interactivity we can use declarative event handlers</p>
-  </section>
-</aside>
-
----
-
-id: declarative-event-handlers
-title: Declarative Event Handlers
-
-<pre class="prettyprint" style="font-size:27px; line-height: 1.2;">
-&lt;polymer-element name="click-element"&gt;
-  &lt;template&gt;
-    <b>&lt;button on-click="{{setMessage}}"&gt;Click me&lt;/button&gt;</b>
-    <b>&lt;span&gt;{{message}}&lt;/span&gt;</b>
-  &lt;/template&gt;
-  &lt;script&gt;
-  Polymer('click-element', {
-    <b>message: 'Waiting to be clicked...'</b>
-    <b>setMessage: function() { this.message = 'I was clicked!' }</b>
-  });
-  &lt;/script&gt;
-&lt;/polymer-element&gt;
-</pre>
-
-<div class="component-demo">
-  <output style="display: block; padding: 10px; zoom: 2;">
-    <click-element></click-element>
-  </output>
-</div>
-
-<aside class="note">
-  <section>
-    <p>You can press h to focus the slide</p>
-    <p>To add a bit of interactivity we can use a declarative event handler. Here we're using on-click (note, not onclick) to fire an action called setMessage any time our button is clicked.</p>
-    <p>setMessage will change a property on our prototype called message, which will then update inside the binding in our template</p>
-    <p>Explain why onclick is bad but on-click is awesome</p>
-    <p>onclick is bad because it works in the global scope and uses eval. on-click is awesome because it only has access to your element, it automatically removes the event listener when your element leaves the DOM, and it uses polymer-gestures, a library which unifies mouse, touch and pointer events.</p>
-  </section>
-</aside>
-
----
-
-body_class: core-fill
-content_class: flexbox vcenter
-
-<h2 class="faded">Automatic <em>node finding</em></h2>
-
-<aside class="note">
-  <section>
-    <p>Last feature I want to show is automatic node finding</p>
-  </section>
-</aside>
-
----
-
-id: automatic-node-finding
-title: Automatic Node Finding
-
-<pre class="prettyprint" style="font-size:30px; line-height: 1.2;">
-&lt;polymer-element name="focus-element"&gt;
-  &lt;template&gt;
-    <b>&lt;button on-click="{{setFocus}}"&gt;Set Focus&lt;/button&gt;</b>
-    <b>&lt;input id="nameInput" type="text"&gt;</b>
-  &lt;/template&gt;
-  &lt;script&gt;
-  Polymer('focus-element', {
-    <b>setFocus: function() { this.$.nameInput.focus(); }</b>
-  });
-  &lt;/script&gt;
-&lt;/polymer-element&gt;
-</pre>
-
-<div class="component-demo">
-  <output style="display: block; padding: 10px; zoom: 2;">
-    <focus-element></focus-element>
-  </output>
-</div>
-
-<aside class="note">
-  <section>
-    <p>This example is very similar to our last one...</p>
-    <p>This time I've given my input an id of 'nameInput'. And in my code I can ask for this.$.nameInput to select it.</p>
-    <p>It's not jquery. We just take anything with an id and stick it in a hash which is stored in a $</p>
-    <p>You might think ids are bad, but custom elements scope the ids to the element definition, so it's ok to have ids in your element because they won't pollute the page</p>
-  </section>
-</aside>
-
----
-
-hidden: true
-title: Polymer features
-subtitle: declarative web components
-
-- Declarative element registration: `<polymer-element>`
-- Declarative inheritance: `<polymer-element extends="...">`
-- Declarative two-way data-binding: `<input id="input" value="{{foo}}">`
-- Declarative event handlers: `<button on-click="{{handleClick}}">`
-- Published properties: `xFoo.bar = 5 <-> <x-foo bar="5">`
-- Property change watchers: `barChanged: function() {...}`
-- Automatic node finding: `this.$.input.value = 5`
-- PointerEvents / PointerGestures by default
-- Support for Web Animations
-
-<div class="build centered bold topmargin blue">
-<span style="font-size:50px;">Be declarative. Write less code.</span>
-</div>
-
-<aside class="note">
-  <section>
-    <p>Registering your own element is kind of a wordy, verbose process</p>
-    <p>You want to have a super button that inherits from your base button</p>
-    <p>Two-way binding is awesome. You'll be amazed at how easy it is to build an entire application with nothing but binding</p>
-    <p><b>We want to do things that make sense for developers</b></p>
-  </section>
-</aside>
-
----
-
-hidden: true
-id: more-complex-elements
-title: Define an API
-subtitle: complex elements require more juice...
-
-<pre data-code-cycle class="prettyprint" data-lang="HTML" style="font-size:25px;line-height: 1.4;">
-</pre>
-
-<textarea selected>
-<polymer-element name="my-input" noscript>
-  <template>
-    <input type="text" id="in" style="color: orange;">
-  </template>
-</polymer-element>
-</textarea>
-<textarea>
-<polymer-element name="my-input">
-  <template>
-    <input type="text" id="in" style="color: orange;">
-  </template>
-  <script>Polymer('my-input');</script>
-</polymer-element>
-</textarea>
-<textarea>
-<polymer-element name="my-input">
-  <template>
-    <input type="text" id="in" style="color: orange;">
-  </template>
-  <script>
-    Polymer('my-input', {
-      get length() { return this.$.in.value.length; },
-      ready: function() { ... }
-    });
-  </script>
-</polymer-element>
-</textarea>
-<textarea>
-&lt;polymer-element name="my-input">
-  &lt;template>
-    &lt;link rel="stylesheet" href="styles.css">
-    &lt;input id="in" type="text">
-  &lt;/template>
-  &lt;script src="path/to/elements/myinput.js">&lt;/script>
-&lt;/polymer-element>
-</textarea>
-
-- Properties/methods are added to `prototype`
-- `this` refers to the element itself (e.g. `this.localName == "my-input"`)
-- Can reference external scripts/stylesheets (e.g. CSP friendly)
-
-<!-- <pre class="prettyprint" data-lang="HTML">
-&lt;polymer-element name="my-input" constructor="MyInput">
-  &lt;template>
-    <b>&lt;link rel="stylesheet" href="styles.css"></b>
-    &lt;input type="text">
-  &lt;/template>
-  <b>&lt;script src="path/to/elements/myinput.js">&lt;/script></b>
-&lt;/polymer-element>
-</pre> -->
-
----
-
-hidden: true
-id: published-properties
-title: Publishing properties & data-binding
-polymer_link: http://www.polymer-project.org/polymer.html#published-properties
-
-2. **Inside** the element &rarr; use data-binding
-2. **Outside** the element &rarr; users configure us using attributes
-
-<pre data-code-cycle class="prettyprint" data-lang="HTML">
-</pre>
-
-<textarea selected>
-<polymer-element name="my-input">
-  <template>
-    <input type="text" style="color: orange;">
-  </template>
-  <script>
-    Polymer('my-input', {
-      type: 'text', 
-      color: 'orange'
-    });
-  </script>
-</polymer-element>
-</textarea>
-<textarea>
-<polymer-element name="my-input">
-  <template>
-    <input type="{{type}}" style="color: {{color}};">
-  </template>
-  <script>
-    Polymer('my-input', {
-      type: 'text', 
-      color: 'orange'
-    });
-  </script>
-</polymer-element>
-</textarea>
-<textarea>
-<polymer-element name="my-input">
-  <template>
-    <input type="{{type}}" style="color: {{color}};" value="{{val}}">
-    <polymer-localstorage name="myInputStorage" value="{{val}}"></polymer-localstorage>
-  </template>
-  <script>
-    Polymer('my-input', {
-      type: 'text', 
-      color: 'orange'
-    });
-  </script>
-</polymer-element>
-</textarea>
-<textarea>
-<polymer-element name="my-input" attributes="type color">
-  <template>
-    <input type="{{type}}" style="color: {{color}};" value="{{val}}">
-    <polymer-localstorage name="myInputStorage" value="{{val}}"></polymer-localstorage>
-  </template>
-  <script>
-    Polymer('my-input', {
-      type: 'text', 
-      color: 'orange'
-    });
-  </script>
-</polymer-element>
-<my-input color="red"></my-input>
-</textarea>
-
-<!--
-- User overrides `color` but `type` remains its default ("text")
-- Since `val` isn't published, can't use it as a bindable attribute.
--->
-
----
-
-hidden: true
-title: Features in action
-subtitle: responsive design...using DOM
-#content_class: smaller 
-
-<pre class="corner prettyprint">
-&lt;script src="<span alt="bower install polymer" data-tooltip="bower install polymer">platform.js</span>">&lt;/script>
-&lt;link rel="import" href="<span alt="bower install polymer-elements" data-tooltip="bower install polymer-elements">polymer-media-query.html</span>">
-</pre>
-
-<pre class="prettyprint" data-lang="html">
-&lt;polymer-element name="responsive-layout" attributes="responsive">
-  &lt;template>
-    <b>&lt;polymer-media-query query="max-width:640px" queryMatches="{{isPhone}}">&lt;/...</b>
-    &lt;template if="{{isPhone && responsive}}"> &lt;!-- Phone markup -->
-      &lt;content>&lt;/content>
-    &lt;/template>
-    &lt;template if="{{!responsive}}"> &lt;!-- Non-responsive case -->
-     ...
-    &lt;/template>
-  &lt;/template>
-  &lt;script>Polymer('responsive-layout', {responsive: false});&lt;/script>
-&lt;/polymer-element>
-</pre>
-
-<pre class="prettyprint" data-lang="User's HTML">
-&lt;responsive-layout <b>responsive</b>>
-  &lt;div>...&lt;/div>
-&lt;/responsive-layout>
-</pre>
-
----
-
-id: the-platform
-title: The <label class="platform">platform</label>
-subtitle: <a href="http://www.polymer-project.org/docs/start/platform.html" class="nounderline">polymer-project.org/docs/start/platform</a>
-class: nobackdrop nobackground segue platform polymer-diagram
-#content_class: flexbox vcenter
-keep_content: true
-
-<div id="blocks-3d" class="in" style="top: 10%;">
-  <img id="native-3d" class="block-3d" src="./images/polymer/diagram/native.svg">
-  <img id="platform-3d" class="block-3d" src="./images/polymer/diagram/platform.svg">
-  <img id="polymer-3d" class="block-3d" src="./images/polymer/diagram/polymer.svg">
-  <img id="elements-3d" class="block-3d" src="./images/polymer/diagram/elements.svg">
-</div>
-
-<aside class="note">
-  <section>
-    <p>The last thing we want to talk about is that platform layer at the very bottom</p>
-  </section>
-</aside>
-
----
-
-body_class: platform-fill
-content_class: flexbox vleft
-
-<h2 class="faded" style="font-size: 54px;">The platform is a <em>layer of polyfills</em> that adds support for emerging standards, like <em>Web Components</em>, to all <em>modern browsers</em>.</h2>
-
-<aside class="note">
-  <section>
-    <p>I often just read this slide verbatim</p>
-  </section>
-</aside>
-
----
-
-id: platform-polyfills
-title: Platform polyfills
-subtitle: supporting new web technologies today
-class: nobackdrop nobackground browser-support
-
-<div class="flexbox">
-  <h2>Templates</h2>
-  <div class="browser-support-row">
-    <div class="supported"><img src="images/logos/browsers/safari_logo.png"></div>
-    <div class="supported"><img src="images/logos/browsers/ff_logo.png"></div>
-    <div class="supported"><img src="images/logos/chrome_logo.png"></div>
-    <div class="supported"><img src="images/logos/browsers/opera_logo.png"></div>
-    <div><img src="images/logos/browsers/ie10_logo.png"></div>
-  </div>
-</div>
-
-<div class="flexbox">
-  <h2>HTML Imports</h2>
-  <div class="browser-support-row">
-    <div><img src="images/logos/browsers/safari_logo.png"></div>
-    <div><img src="images/logos/browsers/ff_logo.png"></div>
-    <div class="supported partial"><img src="images/logos/chrome_logo.png"></div>
-    <div><img src="images/logos/browsers/opera_logo.png"></div>
-    <div><img src="images/logos/browsers/ie10_logo.png"></div>
-  </div>
-</div>
-
-<div class="flexbox">
-  <h2>Custom Elements</h2>
-  <div class="browser-support-row">
-    <div><img src="images/logos/browsers/safari_logo.png"></div>
-    <div class="supported partial"><img src="images/logos/browsers/ff_logo.png"></div>
-    <div class="supported"><img src="images/logos/chrome_logo.png"></div>
-    <div><img src="images/logos/browsers/opera_logo.png"></div>
-    <div><img src="images/logos/browsers/ie10_logo.png"></div>
-  </div>
-</div>
-
-<div class="flexbox">
-  <h2>Shadow DOM</h2>
-  <div class="browser-support-row">
-    <div><img src="images/logos/browsers/safari_logo.png"></div>
-    <div class="supported partial"><img src="images/logos/browsers/ff_logo.png"></div>
-    <div class="supported"><img src="images/logos/chrome_logo.png"></div>
-    <div class="supported"><img src="images/logos/browsers/opera_logo.png"></div>
-    <div><img src="images/logos/browsers/ie10_logo.png"></div>
-  </div>
-</div>
-
-<div class="build">
-  <span id="polyfill-support-all"></span>
-</div>
-
-<aside class="note">
-  <section>
-    <p>The platform basically takes our current support picture (press right arrow to fade in animation) and makes it look like this.</p>
-  </section>
-</aside>
-
----
-
-hidden: true
-body_class: platform-fill
-content_class: flexbox vleft
-
-<h2 class="faded" style="font-size: 52px;">Additional features include <em>Mutation Observers</em>, <em>Pointer Events</em>, <em>Web Animations</em>, and much more.</h2>
-
-<aside class="note">
-  <section>
-    
-  </section>
-</aside>
-
----
-
-id: evaporate-platform
-class: polymer-diagram
-
-<div id="blocks-3d">
-  <img id="native-3d" class="block-3d" src="./images/polymer/diagram/native.svg">
-  <img id="platform-3d" class="block-3d" src="./images/polymer/diagram/platform.svg">
-  <img id="polymer-3d" class="block-3d" src="./images/polymer/diagram/polymer.svg">
-  <img id="elements-3d" class="block-3d" src="./images/polymer/diagram/elements.svg">
-</div>
-
-<div class="diagram-explanations" style="margin-top: 250px;">
-  <div class="diagram-explanation">
-    <h3 style="font-size: 35px; line-height: 1.5;">As browsers implement the specifications supported by the platform, the need for this <br>layer <strong>decreases</strong>.</h3>
-  </div>
-  <div class="build">
-    <div id="platform-shrink" class="diagram-explanation">
-      <h3 style="font-size: 35px; line-height: 1.5;">...till eventually it's all <strong>gone</strong>.</h3>
-    </div>
-  </div>
-</div>
-
 
 ---
 
