@@ -23,7 +23,7 @@
 *.tar
 *.zip
 #bower_components/*
-#node_modules/*
+node_modules/*
 
 # Logs and databases #
 ######################
@@ -38,3 +38,4 @@ ehthumbs.db
 Icon?
 Thumbs.db
 *~
+
