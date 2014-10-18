@@ -43,7 +43,7 @@ class: large
     <br>
   </div>
   <div>
-    <h3>Paper Elements</h3>
+    <h3>Material Design</h3>
     <br>
   </div>
   <div>
@@ -1190,7 +1190,7 @@ content_class: flexbox vcenter
 title: Introduction
 content_class: flexbox vcenter
 
-<h3 style="line-height: 1.25;">To develop a single underlying system that allows for a unified experience across platforms and device sizes. Mobile precepts are fundamental, but touch, voice, mouse, and keyboard are all ﬁrst-class input methods.</h3>
+<h3 style="line-height: 1.25;">To develop a single underlying system that allows for a unified experience across platforms and device sizes. Mobile precepts are fundamental, but touch, voice, mouse, and keyboard are all first-class input methods.</h3>
 
 <img class="topmargin" src="images/polymer/md/intro2.png" style="width:100%">
 
@@ -1358,7 +1358,7 @@ Objects are presented to the user without breaking the continuity of experience 
 title: <b>9. </b>Motion provides meaning
 content_class: flexbox vcenter
 
-<h3 style="line-height: 1.25;">Motion is meaningful and appropriate, serving to focus attention and maintain continuity. Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.</h3>
+<h3 style="line-height: 1.25;">Motion is meaningful and appropriate, serving to focus attention and maintain continuity. Feedback is subtle yet clear. Transitions are efficient yet coherent.</h3>
 
 <img class="topmargin" src="images/polymer/md/pr9.png" style="width:100%">
 
@@ -1466,7 +1466,7 @@ title: Color
 content_class: flexbox vcenter
 
 <h3 style="line-height: 1.25;">
-Color is inspired by <b>bold color</b> statements juxtaposed with <b>muted environments</b>, taking cues from contemporary architecture, road signs, pavement marking tape, and sports courts. Emphasize bold shadows and highlights. Introduce unexpected and vibrant colors. Use imagery that expresses personal <b>relevance</b>, information and delight.
+Color is inspired by <b>bold color</b> statements juxtaposed with <b>muted environments</b>, taking cues from contemporary architecture, road signs, pavement marking tape, and sports courts. Emphasize bold shadows and highlights. Introduce unexpected and vibrant colors.
 </h3>
 
 <img class="topmargin" src="images/polymer/md/colorstory.png" style="width:100%">
@@ -1491,8 +1491,9 @@ Toolbars can be statically on top, 'waterfall'; be pushed, or covered.
 A floating action can <b>straddle</b> a step if it relates to the content of the paper creating that step.
 </h3>
 
+<img class="topmargin" src="images/polymer/md/floatingpoint.png" style="width:80%">
+
 <img src="images/polymer/md/toolbar1.png" style="width:80%">
-<img src="images/polymer/md/floatingpoint.png" style="width:80%">
 
 <aside class="note">
   <section>
@@ -1504,14 +1505,10 @@ A floating action can <b>straddle</b> a step if it relates to the content of the
 
 ---
 
-title: Font
+title: Roboto font
 content_class: flexbox vcenter
 
-<h3 style="line-height: 1.25;">
-<b>Roboto</b>
-</h3>
-
-<img class="topmargin" src="images/polymer/md/font.png" style="width:100%">
+<img src="images/polymer/md/font.png" style="width:100%">
 
 <aside class="note">
   <section>
