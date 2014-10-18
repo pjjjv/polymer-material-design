@@ -52,6 +52,10 @@
   @extend .fill;
   background: url('../../images/slides/paper.jpg') no-repeat 50% 50%; ;
 }
+.md {
+  @extend .fill;
+  background: url('../../images/slides/md.jpg') no-repeat 50% 50%; ;
+}
 .paper-checkbox {
   @extend .fill;
   background: #92f0fb;

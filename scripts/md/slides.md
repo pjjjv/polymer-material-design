@@ -1152,3 +1152,259 @@ content_class: flexbox vcenter centered
 </div>
 
 ---
+
+---
+
+class: fill nobackdrop nobackground yum do-transition
+body_class: md
+content_class: flexbox vcenter
+
+<h2 class="centered" style="font-size: 55px; letter-spacing: 0; color: black;">Material Design</h2>
+
+<h3 class="centered" style="line-height: 1.25;">Design is the art of considered creation. Our goal is to satisfy the diverse spectrum of human needs. As those needs evolve, so too must our designs, practices, and philosophies.</h3>
+
+<aside class="note">
+  <section>
+    <p>Google design guidelines</p>
+  </section>
+</aside>
+
+---
+
+title: Introduction
+content_class: flexbox vcenter
+
+<h3 style="line-height: 1.25;">We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science.</h3>
+
+<img class="topmargin" src="images/polymer/md/intro1.png" style="width:100%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
+title: Introduction
+content_class: flexbox vcenter
+
+<h3 style="line-height: 1.25;">To develop a single underlying system that allows for a unified experience across platforms and device sizes. Mobile precepts are fundamental, but touch, voice, mouse, and keyboard are all ﬁrst-class input methods.</h3>
+
+<img class="topmargin" src="images/polymer/md/intro2.png" style="width:100%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
+title: <b>1. </b>Material is the metaphor
+content_class: flexbox vcenter
+
+<h3 style="line-height: 1.25;">A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.</h3>
+
+<img class="topmargin" src="images/polymer/md/pr1.png" style="width:100%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
+title: <b>2. </b>Tangible surfaces
+content_class: columns-2
+
+<h3 style="line-height: 1.25;">Surfaces and edges of the material provide visual cues that are grounded in reality. 
+<br/><br/>
+The use of familiar tactile attributes helps users quickly understand affordances. 
+<br/><br/>
+Yet the flexibility of the material creates new affordances that supercede those in the physical world, without breaking the rules of physics.</h3>
+
+<img src="images/polymer/md/pr2.png" style="width:100%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
+title: <b>3. </b>Dimensionality affords interaction
+content_class: flexbox vcenter
+
+<h3 style="line-height: 1.25;">The fundamentals of light, surface, and movement are key to conveying how objects move, interact, and exist in space in relation to each other. Realistic lighting shows seams, divides space, and indicates moving parts.</h3>
+
+<img class="topmargin" src="images/polymer/md/pr3.png" style="width:100%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
+title: <b>4. </b>One adaptive design
+content_class: flexbox vcenter
+
+<h3 style="line-height: 1.25;"><br/>A single underlying design system organizes interactions and space. Each device reflects a different view of the same underlying system. Each view is tailored to the size and interaction appropriate for that device. Colors, iconography, hierarchy, and spatial relationships remain constant.</h3>
+
+<img src="images/polymer/md/pr4.png" style="width:100%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
+title: <b>5. </b>Bold, graphic, intentional
+content_class: columns-2
+
+<h3 style="line-height: 1.25;">Bold design creates hierarchy, meaning, and focus. 
+<br/><br/>
+Deliberate color choices, edge-to-edge imagery, large-scale typography, and intentional white space create immersion and clarity.
+</h3>
+
+<img src="images/polymer/md/pr5.png" style="width:100%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
+title: <b>6. </b>Emphasize actions
+content_class: flexbox vcenter
+
+<h3 style="line-height: 1.25;">User action is the essence of experience design. The primary actions are inflection points that transform the whole design. Their emphasis makes core functionality immediately apparent and provides waypoints for the user.</h3>
+
+<img class="topmargin" src="images/polymer/md/pr6.png" style="width:100%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
+title: <b>7. </b>User-initiated change
+content_class: flexbox vcenter
+
+<h3 style="line-height: 1.25;">Changes in the interface derive their energy from user actions. Motion that cascades from touch respects and reinforces the user as the prime mover.</h3>
+
+<img class="topmargin" src="images/polymer/md/pr7.png" style="width:100%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
+title: <b>8. </b>Animation choreography
+content_class: columns-2
+
+<h3 style="line-height: 1.25;">All action takes place in a single environment. 
+<br/><br/>
+Objects are presented to the user without breaking the continuity of experience even as they transform and reorganize.
+</h3>
+
+<img src="images/polymer/md/pr8.png" style="width:100%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
+title: <b>9. </b>Motion provides meaning
+content_class: flexbox vcenter
+
+<h3 style="line-height: 1.25;">Motion is meaningful and appropriate, serving to focus attention and maintain continuity. Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.</h3>
+
+<img class="topmargin" src="images/polymer/md/pr9.png" style="width:100%">
+
+<aside class="note">
+  <section>
+    <p>
+</p>
+</section>
+</aside>
+
+---
+
+class: fill nobackdrop nobackground yum do-transition
+body_class: step
+content_class: flexbox vcenter
+
+<h2 class="centered" style="font-size: 55px; letter-spacing: 0; color: black;">This is Material Design.</h2>
+<br/><br/>
+<h2 class="centered" style="font-size: 55px; letter-spacing: 0; color: black;">This is our first step.</h2>
+
+
+<aside class="note">
+  <section>
+    <p></p>
+  </section>
+</aside>
+
+---
+
+class: nobackground fill
+body_class: vid
+
+<google-youtube
+  videoid="Q8TXgCzxEnw"
+  fluid="true"
+  rel="0"
+  start="5"
+  autoplay="0">
+</google-youtube>
+
+<aside class="note">
+  <section>
+    <p>Topeka is our flagship. Demonstrates core and paper.
+Animations created with core-animated pages.
+Can do really powerful stuff with it.</p>
+  </section>
+</aside>
+
+---
+
+class: fill nobackdrop nobackground yum do-transition
+body_class: step
+content_class: flexbox vcenter
+
+<h2 class="centered" style="font-size: 55px; letter-spacing: 0; color: black;">Imagine, Create, Iterate.</h2>
+
+<aside class="note">
+  <section>
+    <p></p>
+  </section>
+</aside>
+
+---
