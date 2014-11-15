@@ -16,8 +16,6 @@ id: who
 
 <p class="topmargin"></p>
 
-<p>Modified slides of Rob Dodson (Developer Advocate)</p>
-
 <aside class="note">
   <section>
     <p>Introduce yourself, mention contact info</p>
@@ -28,6 +26,7 @@ id: who
 </aside>
 
 ---
+hidden: true
 
 id: agenda
 title: Today's agenda
@@ -63,6 +62,7 @@ class: large
 </aside>
 
 ---
+hidden: true
 
 body_class: core-fill
 content_class: flexbox vleft
@@ -76,6 +76,7 @@ content_class: flexbox vleft
 </aside>
 
 ---
+hidden: true
 
 id: netscape
 #title: Understand where we came from
@@ -99,6 +100,7 @@ body_class: netscape
 </aside>
 
 ---
+hidden: true
 
 content_class: flexbox vcenter
 
@@ -114,6 +116,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 body_class: elements-fill
 content_class: flexbox vcenter
@@ -127,6 +130,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 class: large
 content_class: flexbox vcenter
@@ -153,6 +157,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 body_class: elements-fill
 content_class: flexbox vcenter
@@ -166,6 +171,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 class: large
 content_class: flexbox vcenter
@@ -193,6 +199,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 class: large
 content_class: flexbox vcenter
@@ -245,6 +252,7 @@ content_class: flexbox vcenter
 </select>
 
 ---
+hidden: true
 
 body_class: elements-fill
 content_class: flexbox vcenter
@@ -258,6 +266,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 class: large
 content_class: flexbox vcenter
@@ -290,6 +299,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 class: large
 content_class: flexbox vcenter
@@ -312,6 +322,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 body_class: elements-fill
 content_class: flexbox vcenter
@@ -325,6 +336,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 class: large
 content_class: flexbox vcenter
@@ -341,6 +353,7 @@ var foo = mySelect.selectedIndex;
 </aside>
 
 ---
+hidden: true
 
 body_class: core-fill
 content_class: flexbox vleft
@@ -355,6 +368,7 @@ content_class: flexbox vleft
 </aside>
 
 ---
+hidden: true
 
 id: tab-examples
 title: Building a tab component today
@@ -378,6 +392,7 @@ title: Building a tab component today
 </aside>
 
 ---
+hidden: true
 
 class: large
 content_class: flexbox vcenter
@@ -398,6 +413,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 class: nobackdrop nobackground yum
 content_class: flexbox vcenter centered
@@ -405,6 +421,7 @@ content_class: flexbox vcenter centered
 <img src="images/logos/lockup.svg" style="height:180px;">
 
 ---
+hidden: true
 
 content_class: flexbox vleft
 
@@ -421,6 +438,7 @@ content_class: flexbox vleft
 </aside>
 
 ---
+hidden: true
 
 id: layers-of-polymer
 class: polymer-diagram
@@ -496,6 +514,7 @@ class: large
 </div>
 
 ---
+hidden: true
 
 content_class: flexbox vcenter
 
@@ -508,6 +527,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 body_class: elements-fill
 content_class: flexbox vcenter
@@ -521,6 +541,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 body_class: core-fill
 content_class: flexbox vcenter
@@ -534,6 +555,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 body_class: platform-fill
 content_class: flexbox vcenter
@@ -547,6 +569,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 id: using-elements
 title: Using <label class="elements">elements</label>
@@ -569,6 +592,7 @@ keep_content: true
 </aside>
 
 ---
+hidden: true
 
 class: nobackground fill
 body_class: polymer-phone
@@ -584,6 +608,7 @@ content_class: flexbox vcenter hcenter
 </aside>
 
 ---
+hidden: true
 
 body_class: elements-fill
 content_class: flexbox vcenter
@@ -603,6 +628,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 class: fill
 body_class: core-elements
@@ -618,6 +644,7 @@ content_class: flexbox vcenter hcenter
 </aside>
 
 ---
+hidden: true
 
 id: polymer-ui-elements
 title: Polymer Core UI elements
@@ -663,6 +690,7 @@ subtitle: visual elements
 </aside>
 
 ---
+hidden: true
 
 id: polymer-ui-tabs-demo
 title: Everything is an element
@@ -700,6 +728,7 @@ subtitle: Tabs revisited
 </aside>
 
 ---
+hidden: true
 
 id: polymer-ui-collapsible-demo
 title: Everything is an element
@@ -777,6 +806,7 @@ content_class: flexbox vcenter
 <h2>You don't have to know about their internals</h2>
 
 ---
+hidden: true
 
 title: Polymer Core elements
 subtitle: non-visual utility elements
@@ -829,6 +859,7 @@ content_class: columns-2
 </aside>
 
 ---
+hidden: true
 
 id: polymer-flex-demo
 title: Everything is an element
@@ -913,6 +944,7 @@ content_class: flexbox vcenter
 <h2>They're easy to add to your project</h2>
 
 ---
+hidden: true
 
 class: fill
 body_class: paper-elements
@@ -929,6 +961,7 @@ Animation and spatial relationships</p>
 </aside>
 
 ---
+hidden: true
 
 id: paper-checkbox
 body_class: paper-checkbox
@@ -952,6 +985,7 @@ Fluid animations and the ink effects to denote pointer activity.</p>
 </aside>
 
 ---
+hidden: true
 
 id: paper-ripple
 body_class: paper-ripple
@@ -987,6 +1021,7 @@ This can be a simple drop-in to give your elements more visual punch
 </aside>
 
 ---
+hidden: true
 
 id: paper-shadow
 body_class: paper-shadow
@@ -1015,6 +1050,7 @@ Make your elements spring to life. Actually two shadows.
 </aside>
 
 ---
+hidden: true
 
 class: nobackground fill
 body_class: topeka-slide
@@ -1031,6 +1067,7 @@ Can do really powerful stuff with it.</p>
 </aside>
 
 ---
+hidden: true
 
 id: creating-elements
 title: Creating <label class="core">elements</label>
@@ -1053,6 +1090,7 @@ keep_content: true
 </aside>
 
 ---
+hidden: true
 
 body_class: core-fill
 content_class: flexbox vcenter
@@ -1066,6 +1104,7 @@ content_class: flexbox vcenter
 </aside>
 
 ---
+hidden: true
 
 id: declarative-registration
 title: Declarative registration
@@ -1104,6 +1143,7 @@ title: Declarative registration
 </aside>
 
 ---
+hidden: true
 
 id: declarative-registration-proto
 title: Declarative registration
@@ -1142,6 +1182,7 @@ title: Declarative registration
 </aside>
 
 ---
+hidden: true
 
 id: polymerurl
 class: nobackdrop nobackground yum do-transition
@@ -1150,8 +1191,6 @@ content_class: flexbox vcenter centered
 <div class="build">
 <h2><a href="http://polymer-project.org"><span class="elements">polymer</span><span class="hide">-</span><span class="core">project</span><span class="hide">.</span><span class="platform">org</span></a></h2>
 </div>
-
----
 
 ---
 
@@ -1398,7 +1437,7 @@ Not all objects move the same way.
 Entering the frame at peak velocity.
 </h3>
 
-<video id="vid1" loop width="738" height="269" autoplay>
+<video class="vidddeo" id="vid1" loop width="738" height="269" autoplay>
 <source src="video/videos-authenticMotion_massAndWeight_ex3_do_large_xhdpi.webm" type="video/webm">
 <source src="video/videos-authenticMotion_massAndWeight_ex3_do_large_xhdpi.mp4" type="video/mp4">
 </video>
@@ -1422,7 +1461,7 @@ From the contact point, make the visual reaction <b>radial</b>.
 The material itself can also respond to interaction: <b>lift on touch</b>; <b>point of origin</b>.
 </h3>
 
-<video id="vid2" loop autoplay width="360" height="405">
+<video class="vidddeo" id="vid2" loop autoplay width="360" height="405">
 <source src="video/animation-responsive-surfaceresponse-pointorigin-do_example_large_xhdpi.webm" type="video/webm">
 <source src="video/animation-responsive-surfaceresponse-pointorigin-do_example_large_xhdpi.mp4" type="video/mp4">
 </video>
@@ -1447,7 +1486,7 @@ Hierarchical Timing: Ensure that motion supports the information <b>hierarchy</b
 Consistent Choreography: <b>Avoid linear spatial paths</b>.
 </h3>
 
-<video id="vid3" loop autoplay  width="360" height="422">
+<video class="vidddeo" id="vid3" loop autoplay  width="360" height="422">
 <source src="video/meaningfultransitions-consistentchoreography_do1_large_xhdpi.webm" type="video/webm">
 <source src="video/meaningfultransitions-consistentchoreography_do1_large_xhdpi.mp4" type="video/mp4">
 </video>

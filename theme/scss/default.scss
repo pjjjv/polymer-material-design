@@ -469,6 +469,10 @@ button:not(:disabled):active {
   @include column-count(2);
 }
 
+.vidddeo {
+  -webkit-transform: translateZ(0)
+}
+
 table {
   width: 100%;
   border-collapse: -moz-initial;
